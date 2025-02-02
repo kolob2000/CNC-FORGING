@@ -242,7 +242,7 @@ cython_debug/
 file.py
 file2.py
 text.txt
-identifier.sqlite
+db/identifier.sqlite
 node_modules
 parallel
 resume

@@ -1,0 +1,1 @@
+global_variables = {'client': None}
