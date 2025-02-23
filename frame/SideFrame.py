@@ -34,6 +34,6 @@ class SideFrame(ctk.CTkFrame):
                            pady=10, sticky='new')
         #######
         self.btn_vfd = TransparentCTkButton.TransparentImageCTkButton(master=self, img='theme/img/vfd.png',
-                                                                       command=lambda: master.show('control_frame', self.btn_hand))
+                                                                       command=lambda: master.show('control_frame', self.btn_vfd))
         self.btn_vfd.grid(column=0, row=4, padx=10,
                            pady=10, sticky='new')

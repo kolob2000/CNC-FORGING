@@ -35,7 +35,6 @@ class MainUI(ctk.CTk):
         self.show('connect_frame')
 
     def show(self, frame_name, button_object=None):
-        print(self.client, 'this mainui')
         # Проверяем, создан ли фрейм. Если нет — создаём
         if frame_name not in self.frames:
             match frame_name:
